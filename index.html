@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section id="formContainer">
+            <h1>USUARIOS</h1>
+            <form>
+                <label for="inNickname">NickName</label>
+                <input id="inNickname" type="text" placeholder="E AGC">
+                <label for="inEmail">Correo Electronico</label>
+                <input id="inEmail" type="email" placeholder="example@example.com">
+                <label for="inPassword">password</label>
+                <input id="inPassword" type="password" />
+                <button id="btnAddUpdate"type="submit"> GUARDAR</button>
+            </form>
+        </section>
+        <section id="tableContainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th>NickName</th>
+                        <th>Correo</th>
+                        <th>Contraseña</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <script src="./js/model/User.js"></script>
+    <script src="./js/controller/user.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
